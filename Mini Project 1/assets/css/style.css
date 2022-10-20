@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
-:root{
+:root {
     --primary: #0d6efd;
     --dark: #21252f;
     --body: #888;
@@ -10,13 +10,12 @@
 body {
     font-family: Sora, "sans-serif";
     line-height: 1.7;
-    color: var(--body)
+    color: var(--body);
 }
 
 h1,h2,h3,h4,h5,h6,
 .display-4 {
     color: var(--dark);
-    font-weight: 700;
 }
 
 a {
@@ -24,69 +23,6 @@ a {
     text-decoration: none;
 }
 
-.navbar .logo {
-    width: 120px;
-}
-
-.navbar .nav-link {
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.btn {
-    padding: 14px 18px;
-    border-width: 2px;
-    border-radius: 0;
-}
-
 .hero {
     background-image: url(../images/bg1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 2;
-}
-
-.hero::after {
-    content: "";
-    width: 100;
-    height: 100;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(53, 48, 48, 0.8);
-    z-index: -1;
-
-}
-
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.card-effect {
-    box-shadow: var(--box-shadow);
-    background-color: #fff;
-    padding: 25px;
-    transition: all 0.35s ease;
-}
-
-.card-effect:hover {
-    box-shadow: none;
-    transform: translateY(5px);
-
-}
-
-.iconbox {
-    width: 54px;
-    height: 54px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary);
-    color: #fff;
-    font-size: 32px;
-    border-radius: 100px;
-
 }
