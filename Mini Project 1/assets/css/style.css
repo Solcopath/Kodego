@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
 .navbar .logo {
     width: 160px;
 }
@@ -87,4 +91,39 @@ section {
     color: #fff;
     font-size: 32px;
     border-radius: 100px;
+}
+
+.gameplay {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.gameplay::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background-color: var(--primary);
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+
+.gameplay:hover .iconbox {
+    background-color: #fff;
+    color: var(--primary);
+}
+
+.gameplay:hover h5,
+.gameplay:hover p {
+    color: #fff;
+}
+
+.gameplay:hover::after {
+    opacity: 1;
+    top: 0;
 }
