@@ -45,10 +45,29 @@ img {
     padding: 14px 18px;
     border-width: 2px;
     border-radius: 0;
+    background-color: red;
 }
 
 .hero {
     background-image: url(../images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.herogameinfo {
+    background-image: url(../images/brim.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.herogameagents {
+    background-image: url(../images/vallo.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -135,6 +154,146 @@ section {
 
 .col-img {
     background-image: url(../images/valopic2.jfif);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgbrim {
+    background-image: url(../images/Agent/brim.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgphoenix {
+    background-image: url(../images/Agent/phoenix.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgsage {
+    background-image: url(../images/Agent/sage.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgyoru {
+    background-image: url(../images/Agent/yoru.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgharbor {
+    background-image: url(../images/Agent/harbor.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgastra {
+    background-image: url(../images/Agent/astra.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgsova {
+    background-image: url(../images/Agent/sova.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgviper {
+    background-image: url(../images/Agent/viper.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgcypher {
+    background-image: url(../images/Agent/cypher.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgreyna {
+    background-image: url(../images/Agent/reyna.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgkilljoy {
+    background-image: url(../images/Agent/kj.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgbreach {
+    background-image: url(../images/Agent/breach.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgomen {
+    background-image: url(../images/Agent/omen.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgjett {
+    background-image: url(../images/Agent/jett.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgraze {
+    background-image: url(../images/Agent/raze.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgskye {
+    background-image: url(../images/Agent/skye.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgkayo {
+    background-image: url(../images/Agent/kayo.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgchamber {
+    background-image: url(../images/Agent/chamber.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgneon {
+    background-image: url(../images/Agent/neon.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-imgfade {
+    background-image: url(../images/Agent/fade.png);
     background-position: center;
     background-size: cover;
     min-height: 500px;
