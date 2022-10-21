@@ -57,24 +57,6 @@ img {
     z-index: 2;
 }
 
-.herogameinfo {
-    background-image: url(../images/brim.jpg);
-    background-position: center;
-    background-size: cover;
-    background-position: fixed;
-    position: relative;
-    z-index: 2;
-}
-
-.herogameagents {
-    background-image: url(../images/vallo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-position: fixed;
-    position: relative;
-    z-index: 2;
-}
-
 .hero::after {
     content: "";
     width: 100%;
@@ -85,6 +67,73 @@ img {
     background-color: rgba(74, 16, 16, 0.801);
     z-index: -1;
 }
+
+.herogameinfo {
+    background-image: url(../images/what\ is\ valorant.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.herogameagents {
+    background-image: url(../images/Choose\ a\ role.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.heromaps {
+    background-image: url(../images/map\ basics.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.heroarsenals {
+    background-image: url(../images/weapons\ by\ type.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.herogamemode {
+    background-image: url(../images/school\ for\ non-gifted\ shooters.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.herosocials {
+    background-image: url(../images/What\ is\ in\ a\ round.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.herocontact {
+    background-image: url(../images/tactical\ cycle.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
 
 section {
     padding-top: 120px;
