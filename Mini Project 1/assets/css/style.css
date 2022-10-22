@@ -49,7 +49,7 @@ img {
 }
 
 .hero {
-    background-image: url(../images/bg1.jpg);
+    background-image: url(https://www.gamersdecide.com/sites/default/files/styles/news_images/public/guardian_headline.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -64,12 +64,12 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(74, 16, 16, 0.801);
+    background-color: rgba(54, 34, 34, 0.801);
     z-index: -1;
 }
 
 .herogameinfo {
-    background-image: url(../images/what\ is\ valorant.jpg);
+    background-image: url(https://i.pinimg.com/564x/90/c4/8e/90c48e95eb530843183ed42d215943d9.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -77,19 +77,8 @@ img {
     z-index: 2;
 }
 
-.herogameinfo::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(74, 16, 16, 0.801);
-    z-index: -1;
-}
-
 .herogameagents {
-    background-image: url(../images/Choose\ a\ role.jpg);
+    background-image: url(https://i.pinimg.com/564x/04/3c/23/043c239fd81c05b2e043bcf1ced75c63.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -98,7 +87,7 @@ img {
 }
 
 .heromaps {
-    background-image: url(../images/map\ basics.jpg);
+    background-image: url(https://i.pinimg.com/564x/7f/66/5a/7f665aadef13b6687bfbaa97d5733f0c.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -107,7 +96,7 @@ img {
 }
 
 .heroarsenals {
-    background-image: url(../images/weapons\ by\ type.jpg);
+    background-image: url(https://i.pinimg.com/564x/92/dc/84/92dc84d60f9297bd92bdec44234be447.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -116,7 +105,7 @@ img {
 }
 
 .herogamemode {
-    background-image: url(../images/school\ for\ non-gifted\ shooters.jpg);
+    background-image: url(https://i.pinimg.com/564x/59/3f/b0/593fb052acf50bf3fd9e9dfd299d97a8.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -125,7 +114,7 @@ img {
 }
 
 .herosocials {
-    background-image: url(../images/What\ is\ in\ a\ round.jpg);
+    background-image: url(https://i.pinimg.com/564x/e1/c3/00/e1c30067a345fd0a37bb10ce8ffddb8a.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -134,7 +123,7 @@ img {
 }
 
 .herocontact {
-    background-image: url(../images/tactical\ cycle.jpg);
+    background-image: url(https://i.pinimg.com/564x/a5/bb/3a/a5bb3af74fdaeddbfbe0d9a3a8a1eb23.jpg);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -211,147 +200,147 @@ section {
 }
 
 .col-img {
-    background-image: url(../images/valopic2.jfif);
+    background-image: url(https://i.pinimg.com/564x/7e/8e/ba/7e8eba8818971329dd1fdbaa8480b869.jpg);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgbrim {
-    background-image: url(../images/Agent/brim.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/8/81/Brimstone_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202719);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgphoenix {
-    background-image: url(../images/Agent/phoenix.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/9/90/Phoenix_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202811);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgsage {
-    background-image: url(../images/Agent/sage.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/7/7e/Sage_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202824);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgyoru {
-    background-image: url(../images/Agent/yoru.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/1/1e/Yoru_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202841);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgharbor {
-    background-image: url(../images/Agent/harbor.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/5/5c/Harbor_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20221018133900);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgastra {
-    background-image: url(../images/Agent/astra.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/e/e0/Astra_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202708);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgsova {
-    background-image: url(../images/Agent/sova.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/c/c5/Sova_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202832);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgviper {
-    background-image: url(../images/Agent/viper.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/8/85/Viper_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202837);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgcypher {
-    background-image: url(../images/Agent/cypher.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/5/55/Cypher_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202731);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgreyna {
-    background-image: url(../images/Agent/reyna.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/3/36/Reyna_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202820);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgkilljoy {
-    background-image: url(../images/Agent/kj.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/8/81/Killjoy_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202751);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgbreach {
-    background-image: url(../images/Agent/breach.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/2/24/Breach_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202713);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgomen {
-    background-image: url(../images/Agent/omen.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/0/0e/Omen_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202807);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgjett {
-    background-image: url(../images/Agent/jett.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/e/e3/Jett_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202742);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgraze {
-    background-image: url(../images/Agent/raze.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/6/6f/Raze_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202815);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgskye {
-    background-image: url(../images/Agent/skye.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/7/7f/Skye_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202828);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgkayo {
-    background-image: url(../images/Agent/kayo.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/5/57/KAYO_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202747);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgchamber {
-    background-image: url(../images/Agent/chamber.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/5/5d/Chamber_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202725);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgneon {
-    background-image: url(../images/Agent/neon.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/f/fe/Neon_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202800);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
 
 .col-imgfade {
-    background-image: url(../images/Agent/fade.png);
+    background-image: url(https://static.wikia.nocookie.net/valorant/images/e/e8/Fade_Artwork_Full.png/revision/latest/scale-to-width-down/1000?cb=20220810202738);
     background-position: center;
     background-size: cover;
     min-height: 500px;
