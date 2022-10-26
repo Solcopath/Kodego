@@ -157,7 +157,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary);
+    background-color: #ff8080;
     color: #fff;
     font-size: 32px;
     border-radius: 100px;
