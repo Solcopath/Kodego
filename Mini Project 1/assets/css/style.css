@@ -3,7 +3,7 @@
 :root {
     --primary: #0d6efd;
     --dark: #21252f;
-    --body: #888;
+    --body: rgb(114, 109, 109);
     --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
 }
 
@@ -42,10 +42,8 @@ img {
 }
 
 .btn {
-    padding: 14px 18px;
-    border-width: 2px;
-    border-radius: 0;
-    background-color: red;
+    padding:;
+    background-color: #ef6850;
 }
 
 .hero {
@@ -60,7 +58,7 @@ img {
 .hero::after {
     content: "";
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: absolute;
     top: 0;
     left: 0;
@@ -69,7 +67,7 @@ img {
 }
 
 .herogameinfo {
-    background-image: url(https://i.pinimg.com/564x/90/c4/8e/90c48e95eb530843183ed42d215943d9.jpg);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/030/940/370/large/lorenzo-lanfranconi-west-studio-lorenzo-lanfranconi-valorant-1.jpg?1602102081);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -78,7 +76,7 @@ img {
 }
 
 .herogameagents {
-    background-image: url(https://i.pinimg.com/564x/04/3c/23/043c239fd81c05b2e043bcf1ced75c63.jpg);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/025/414/400/large/suke-cb-key-art-327-final1.jpg?1585719646);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -87,7 +85,7 @@ img {
 }
 
 .heromaps {
-    background-image: url(https://i.pinimg.com/564x/07/e2/6f/07e26f3e7d234244a1fa888e3222539d.jpg);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/050/710/554/large/suke-fvyuupkviaanauy.jpg?1655487003);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -96,7 +94,7 @@ img {
 }
 
 .heroarsenals {
-    background-image: url(https://i.pinimg.com/564x/92/dc/84/92dc84d60f9297bd92bdec44234be447.jpg);
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/048/686/679/large/suke-episode-4-keyart-4k-4-f1.jpg?1650654264);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -105,7 +103,7 @@ img {
 }
 
 .herogamemode {
-    background-image: url(https://i.pinimg.com/564x/59/3f/b0/593fb052acf50bf3fd9e9dfd299d97a8.jpg);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/038/999/504/large/suke-8.jpg?1624647293);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -114,7 +112,7 @@ img {
 }
 
 .herosocials {
-    background-image: url(https://i.pinimg.com/564x/e1/c3/00/e1c30067a345fd0a37bb10ce8ffddb8a.jpg);
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/027/277/239/large/suke-v-launch-mark-offwhite.jpg?1591087944);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -123,7 +121,7 @@ img {
 }
 
 .herocontact {
-    background-image: url(https://i.pinimg.com/564x/a5/bb/3a/a5bb3af74fdaeddbfbe0d9a3a8a1eb23.jpg);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/048/714/530/large/suke-ep2.jpg?1650739247);
     background-position: center;
     background-size: cover;
     background-position: fixed;
@@ -144,11 +142,13 @@ section {
     background-color: white;
     padding: 25px;
     transition: all 0.35s ease;
+    align-self: normal;
 }
 
 .card-effect:hover {
     box-shadow: none;
     transform: translateY(5px);
+    align-self: normal;
 }
 
 .iconbox {
@@ -166,8 +166,10 @@ section {
 
 .gameplay {
     position: relative;
+    flex-wrap: wrap;
     z-index: 2;
     overflow: hidden;
+    align-self: normal;
 }
 
 .gameplay::after {
@@ -346,6 +348,7 @@ section {
     min-height: 500px;
 }
 
+
 .maps {
     position: relative;
     overflow: hidden;
@@ -424,8 +427,8 @@ form input.form-control {
 
 form .form-control {
     border: transparent;
-    border-radius: 0;
-    background-color: rgba(0,0,0,0.02);
+    border-radius: 20;
+    background-color: #fcddd8;
 }
 
 .footer-top {
@@ -445,3 +448,67 @@ form .form-control {
 .footer-bottom {
     background-color: #242933;
 }
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slowFade {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.slowFade .slide img {
+    position: absolute;
+    min-width: 50%;
+    min-height: 50%;
+    height: auto;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5) rotate(15deg);
+    -webkit-animation: slowFade 32s infinite;
+            animation: slowFade 32s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+}
+.slowFade .slide:nth-child(2) img {
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+}
+.slowFade .slide:nth-child(1) img {
+    -webkit-animation-delay: 24s;
+            animation-delay: 24s;
+}
+@keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+
+
